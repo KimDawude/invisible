@@ -78,7 +78,7 @@ CreateGUI()
 local Connections = {}
 
 Connections[1] = LocalPlayer:GetMouse().KeyDown:Connect(function(key)
-    if key == "t" then
+    if key == "q" then
         IsInvisible = not IsInvisible
         local transparency = IsInvisible and 0.5 or 0
         for _, part in pairs(VisibleParts) do
